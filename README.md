@@ -10,6 +10,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>Java classes for the daily demands in practice.</h3>
 
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
+![dependencies](https://img.shields.io/badge/dependencies-none-orange)
 [![License](https://badgen.net/badge/issue/active/blue)](https://github.com/openworld42/JavaUtil/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
 
@@ -38,7 +39,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 
 *Test file contents*
 
-```java
+```Java
 import org.json.JSONObject;
 public class Test {
     public static void main(String args[]){
