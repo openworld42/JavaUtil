@@ -3,7 +3,6 @@
 alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:none;" />
 
 <br />
-<br />
 
 # JavaUtil 
 
@@ -11,7 +10,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>Java classes for the daily demands in practice.</h3>
 
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
-[![License](https://badgen.net/badge/maintenance/active/blue)](https://github.com/open42/JavaUtil/blob/main/LICENSE)
+[![License](https://badgen.net/badge/issue/active/blue)](https://github.com/openworld42/JavaUtil/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
 
 <br />
@@ -66,10 +65,5 @@ java -cp .:json-java.jar Test (Unix Systems)
 Contributions from any interested party are welcome.
 
 
-<!-- Repository -->
-
-[repo_url]: https://github.com/open42/JavaUtil
-[repo_license_url]: https://github.com/open42/JavaUtil/blob/main/LICENSE
-[repo_license_img]: https://img.shields.io/badge/license-Apache_2.0-red?style=for-the-badge&logo=none
 
 
