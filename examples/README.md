@@ -35,4 +35,5 @@ java -cp .:json-java.jar Test (Unix Systems)
 
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_url]: https://github.com/openworld42/JavaUtil/examples
+[javadoc_url]: https://github.com/openworld42/JavaUtil/javadoc
 

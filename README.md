@@ -24,24 +24,24 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 Java classes for the daily demands in practice. 
 
-:flight_departure: ** :flight_departure: [Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
+:airplane: **[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
 
-:runner: **To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. 
+:mechanic: **To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. 
 
 > [!NOTE]
-> **JavaUtil** needs a Java version of **17+**, due to modern language features. ([download Java](https://openjdk.org/)
+> **JavaUtil** needs a Java version of **17+**, due to modern language features. ([download Java](https://openjdk.org/))
 
 **JavaUtil** tries to keep it simple but functional, 
 thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs (Plain Old Java Object), and uses the KISS (Keep it simple [and] stupid) and "Clean Code" (easy to understand) principle. Don't repeat the boring tasks, don't re-invent the wheel. 
 
-**JavaUtil** is not a framework, and it has **no dependencies**. You use it or modify it, possibly deleting the unnecessary parts. Use the saved time for other things you like.
+:chains: **JavaUtil** is not a framework, and it has **no dependencies**. You use it or modify it, possibly deleting the unnecessary parts. Use the saved time for other things you like.
 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
-- :bicyclist: [Overview, core utilities and some simple examples]([examples_url]/README.md)<br />
+- :bicyclist: [Overview, core utilities and some simple examples](![examples_url]/README.md)<br />
 
-- :hammer_and_wrench: [Utilities]([examples_url]/README.md)/<br />
+- :hammer_and_wrench: [Utilities](![examples_url]/README.md)<br />
 
 - :desktop_computer: GUI (Swing based)<br />
 
@@ -87,5 +87,6 @@ Contributions from any interested party are welcome.
 
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_url]: https://github.com/openworld42/JavaUtil/examples
+[javadoc_url]: https://github.com/openworld42/JavaUtil/javadoc
 
 
