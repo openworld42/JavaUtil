@@ -20,7 +20,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:120px; border:no
 
 # JavaUtil is still in a formation process - but you can watch things grow<br /><br />
 
-Java classes for the daily demands in practice.
+Java classes for the daily demands in practice. 
 
 **[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
 
