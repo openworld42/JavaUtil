@@ -1,15 +1,28 @@
-# JavaUtil - Lightweight Java utilities to support straightforward development
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Oxygen480-actions-office-chart-pie.svg/128px-Oxygen480-actions-office-chart-pie.svg.png" 
+alt="JavaUtil" style="position:absolute; right:40px; top:18px; width:120px; border:none;" />
 
+<br />
+<br />
+<br />
+<br />
+<br />
 
+# JavaUtil 
 
-<br/><br/>
+<h2>Lightweight Java utilities to support straightforward development</h2>
+<h3>Java classes for the daily demands in practice.</h3>
 
-# JavaUtil is still in a formation process - but you can watch things grow<br/><br/>
+[![License][repo_license_img]][repo_license_url]
 
+<br />
+<br />
 
+# JavaUtil is still in a formation process - but you can watch things grow<br /><br />
 
-Java classes for the daily demands in practice. If you like it (better: if it helped you) please give a star - to motivate me. 
+Java classes for the daily demands in practice.
+
+**[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
 
 **To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. **JavaUtil** needs a Java version of **17+**.
 
@@ -21,15 +34,39 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 ### Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
+*Test file contents*
+
+```java
+import org.json.JSONObject;
+public class Test {
+    public static void main(String args[]){
+       JSONObject jo = new JSONObject("{ \"abc\" : \"def\" }");
+       System.out.println(jo.toString());
+    }
+}
+```
+
+*Execute the Test file*
+
+```shell 
+java -cp .;json-java.jar Test (Windows)
+java -cp .:json-java.jar Test (Unix Systems)
+```
 
 ### Javadocs / API
 
 
 
-**Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br/>
+**Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />
 
-**Author**: Heinz Silberbauer  (You like it? Spend a Github Star to motivate me :whale:)<br/>
+**Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me :whale:)<br />
 Contributions from any interested party are welcome.
 
+
+<!-- Repository -->
+
+[repo_url]: https://github.com/open42/JavaUtil
+[repo_license_url]: https://github.com/open42/JavaUtil/blob/main/LICENSE
+[repo_license_img]: https://img.shields.io/badge/license-Apache_2.0-red?style=for-the-badge&logo=none
 
 
