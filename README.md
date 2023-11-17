@@ -7,7 +7,6 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 # JavaUtil 
 
 <h3>Lightweight Java utilities to support straightforward development.</h3>
-<h3>Java classes for the daily demands in practice.</h3>
 
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
 ![dependencies](https://img.shields.io/badge/dependencies-none-orange)
@@ -25,17 +24,25 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 Java classes for the daily demands in practice. 
 
-**[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
+** :flight_departure: [Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
 
-**To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. **JavaUtil** needs a Java version of **17+**.
+** :runner: To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. 
+
+> [!NOTE]
+> **JavaUtil** needs a Java version of **17+**, due to modern language features.
 
 **JavaUtil** tries to keep it simple but functional, 
 thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs (Plain Old Java Object), and uses the KISS (Keep it simple [and] stupid) and "Clean Code" (easy to understand) principle. Don't repeat the boring tasks, don't re-invent the wheel. 
 
 **JavaUtil** is not a framework, and it has **no dependencies**. You use it or modify it, possibly deleting the unnecessary parts. Use the saved time for other things you like.
 
-### Documentation / Examples 
+### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
+
+* :bicyclist: Overview and some simple examples<br />
+
+* :hammer_and_wrench: Utilities<br />
+
 
 *Test file contents*
 
@@ -62,7 +69,7 @@ java -cp .:json-java.jar Test (Unix Systems)
 
 **Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />
 
-**Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me :whale:)<br />
+**Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me **🐳**)<br />
 Contributions from any interested party are welcome.
 
 
