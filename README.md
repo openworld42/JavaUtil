@@ -1,6 +1,6 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Oxygen480-actions-office-chart-pie.svg/128px-Oxygen480-actions-office-chart-pie.svg.png" 
-alt="JavaUtil" style="position:absolute; right:40px; top:18px; width:120px; border:none;" />
+alt="JavaUtil" align="right"; style="right:40px; top:18px; width:120px; border:none;" />
 
 <br />
 <br />
@@ -10,7 +10,7 @@ alt="JavaUtil" style="position:absolute; right:40px; top:18px; width:120px; bord
 
 # JavaUtil 
 
-<h2>Lightweight Java utilities to support straightforward development</h2>
+<h3>Lightweight Java utilities to support straightforward development</h3>
 <h3>Java classes for the daily demands in practice.</h3>
 
 [![License][repo_license_img]][repo_license_url]
