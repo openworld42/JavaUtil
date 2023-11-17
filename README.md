@@ -39,9 +39,9 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
-- :bicyclist: [Overview, core utilities and some simple examples](![examples_url]/README.md)<br />
+- :bicyclist: [Overview, core utilities and some simple examples]([examples_url]/README.md)<br />
 
-- :hammer_and_wrench: [Utilities](![examples_url]/README.md)<br />
+- :hammer_and_wrench: [Utilities]([examples_url]/README.md)<br />
 
 - :desktop_computer: GUI (Swing based)<br />
 
