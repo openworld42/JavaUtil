@@ -39,7 +39,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
-- :bicyclist: [Overview, core utilities and some simple examples][[examples_url]/README.md]<br />
+- :bicyclist: [Overview, core utilities and some simple examples]([[examples_url]/README.md])<br />
 
 - :bicyclist: [Overview, core utilities and some simple examples](examples/README.md)<br />
 (examples/README.md)<br />
