@@ -1,8 +1,17 @@
 # JavaUtil - Lightweight Java utilities to support straightforward development
 
+
+
+
+<br/><br/>
+
+# JavaUtil is still in a formation process - but you can watch things grow<br/><br/>
+
+
+
 Java classes for the daily demands in practice. If you like it (better: if it helped you) please give a star - to motivate me. 
 
-**To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the jar file of a release. **JavaUtil** needs a Java version of **17+**.
+**To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. **JavaUtil** needs a Java version of **17+**.
 
 **JavaUtil** tries to keep it simple but functional, 
 thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs (Plain Old Java Object), and uses the KISS (Keep it simple [and] stupid) and "Clean Code" (easy to understand) principle. Don't repeat the boring tasks, don't re-invent the wheel. 
