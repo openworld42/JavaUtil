@@ -4,8 +4,6 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 <br />
 <br />
-<br />
-<br />
 
 # JavaUtil 
 
@@ -14,8 +12,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
 [![License](https://badgen.net/badge/maintenance/active/blue)](https://github.com/open42/JavaUtil/blob/main/LICENSE)
-
-
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
 
 <br />
 <br />
