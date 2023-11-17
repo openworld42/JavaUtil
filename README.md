@@ -1,8 +1,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Oxygen480-actions-office-chart-pie.svg/128px-Oxygen480-actions-office-chart-pie.svg.png" 
-alt="JavaUtil" align="right" style="right:40px; top:18px; width:120px; border:none;" />
+alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:none;" />
 
-<br />
 <br />
 <br />
 <br />
@@ -10,15 +9,22 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:120px; border:no
 
 # JavaUtil 
 
-<h3>Lightweight Java utilities to support straightforward development</h3>
+<h3>Lightweight Java utilities to support straightforward development.</h3>
 <h3>Java classes for the daily demands in practice.</h3>
 
-[![License][repo_license_img]][repo_license_url]
+[![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
+[![License](https://badgen.net/badge/maintenance/active/blue)](https://github.com/open42/JavaUtil/blob/main/LICENSE)
+
+
 
 <br />
 <br />
 
-# JavaUtil is still in a formation process - but you can watch things grow<br /><br />
+# JavaUtil is still in a formation process - but you can watch things grow.
+
+<br />
+<br />
+
 
 Java classes for the daily demands in practice. 
 
