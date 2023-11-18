@@ -9,24 +9,129 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>General utility classes: overview, core utilities, simple examples</h3>
 
 
+### :book: Documentation / Examples 
 
-*Test file contents*
+| Package | README |Column 3|
+|:---|:---|:---|
+| :hammer_and_wrench: General util | org.jutil.util   | Javadoc |
+| :desktop_computer: GUI (Swing)   | org.jutil.gui    | Javadoc |
+| :floppy_disk: I/O                | org.jutil.io     | Javadoc |
+| ::gear: System                   | org.jutil.system | Javadoc |
+| :iphone: Application specific    | org.jutil.app    | Javadoc |
+
+<br />
+
+## ⚡️ Quick overview (more examples are in the README of the package)
+
+### Using org.jutil.util.Strings (selected examples)
 
 ```Java
-import org.json.JSONObject;
-public class Test {
-    public static void main(String args[]){
-       JSONObject jo = new JSONObject("{ \"abc\" : \"def\" }");
-       System.out.println(jo.toString());
-    }
-}
+import org.jutil.util.*;
+
+	... 
+	// create a simple headline (e.g. for logging)
+	System.out.println(Strings.repeat(30, "*"));
+	System.out.println(Strings.center("***", "headline", "***", 30));
+	System.out.println(Strings.repeat(30, "*"));	
+	
+Output:
+******************************
+***        headline        ***
+******************************
+
+	...
+	// create line numbers
+	int i = 42;
+	System.out.println(
+		Strings.fillLeft("" + i + ": ", 7, " ") + "some text");
+	i += 1000;
+	System.out.println(
+		Strings.fillLeft("" + i + ": ", 7, " ") + "some other text");
+	
+Output:
+   42: some text
+ 1042: some other text
+   
+	...
+	Strings.stripIfEndsWith("myFile.json", ".json");             // returns "myFile"
+
+	...
+	Strings.listToString(List.of(1, 2, 3), null, ","", false);   // returns "1,2,3"
+
+	...
+	Strings.listToString(List.of(1, 2, 3), "   ", ",\n", false);	
+	
+Output (indented by "   "):
+   1,
+   2,
+   3
+
+	...
+	System.out.println(
+		Strings.listToString(List.of("This", "is", "a", "text."), "   <a>, "</a>\n", true)); 
+
+Output:
+   <a>This</a>
+   <a>is</a>
+   <a>a</a>
+   <a>text.</a>
+   
+	...
+	indent("  ", 3, "text line");          // returns "      text line" indented by 6 spaces
+	
+More detailed examples can be found in the package README or the Javadoc API.
+
 ```
 
-*Execute the Test file*
+### Using org.jutil.system.CommandExecutor (selected examples)
 
-```shell 
-java -cp .;json-java.jar Test (Windows)
-java -cp .:json-java.jar Test (Unix Systems)
+```Java
+import org.jutil.Util;
+
+	... 
+	// Linux, Unix, MacOS, others:
+	
+	CommandExecutor executor = new CommandExecutor("bash", "-c", "ls");
+	System.out.println("Exit code: " + executor.getExitCode());
+	System.out.println("\n" + executor.getOutput());
+	
+Output (of the JavaUtil folder):
+Exit code: 0
+
+bin
+build.xml
+CHANGELOG.md
+examples
+LICENSE
+...
+	
+More detailed examples can be found in the package README or the Javadoc API.
+
+```
+
+### Using of org.jutil.Util (selected examples)
+
+```Java
+import org.jutil.Util;
+
+	... 
+	Util.notImplementedException();		
+	// throws a subclass of RuntimeException and text to identify unimplemented
+	// code parts 
+	
+	...
+	Util.sleep(100); 	
+	// convenience method: sleeps 100ms or until interruption, see 
+	// implementation or Javadoc for details
+	
+	...
+	String prompt = Util.prompt("go further: ");		// console IO
+	System.out.println("Prompted input: '" + prompt + "'");
+	
+	
+	
+More detailed examples can be found in the package README or the Javadoc API.
+
 ```
 
 [Overview][examples_top_url] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#top">Back to top</a>
