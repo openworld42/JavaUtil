@@ -39,47 +39,22 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
-- :bicyclist: [Overview, core utilities and some simple examples]([[examples_url]/README.md])<br />
-
-- :bicyclist: [Overview, core utilities and some simple examples](examples/README.md)<br />
-(examples/README.md)<br />
-
 - :bicyclist: [Overview, core utilities and some simple examples](examples/README.md)<br />
 
 - :hammer_and_wrench: [Utilities](examples/util/README.md)<br />
 
-- :desktop_computer: GUI (Swing based)<br />
+- :desktop_computer: [GUI (Swing based)](examples/gui/README.md)<br />
 
-- :iphone: application specific
+- :floppy_disk: [I/O](examples/io/README.md)<br />
 
-- :keyboard: system
+- :keyboard: [System](examples/system/README.md)<br />
 
-- :floppy_disk: io
+- :iphone: [Application specific](examples/app/README.md)<br />
 
-
-
-- [content/README.md](content/README.md)
-
-*Test file contents*
-
-```Java
-import org.json.JSONObject;
-public class Test {
-    public static void main(String args[]){
-       JSONObject jo = new JSONObject("{ \"abc\" : \"def\" }");
-       System.out.println(jo.toString());
-    }
-}
-```
-
-*Execute the Test file*
-
-```shell 
-java -cp .;json-java.jar Test (Windows)
-java -cp .:json-java.jar Test (Unix Systems)
-```
 
 ### Javadocs / API
+
+- [Javadoc Overview][javadoc_url]<br />
 
 
 
@@ -91,7 +66,7 @@ Contributions from any interested party are welcome.
 <!-- Repository -->
 
 [repo_url]: https://github.com/openworld42/JavaUtil
-[examples_url]: https://github.com/openworld42/JavaUtil/examples
-[javadoc_url]: https://github.com/openworld42/JavaUtil/javadoc
+[examples_top_url]: https://github.com/openworld42/JavaUtil/examples/README.md
+[javadoc_url]: https://github.com/openworld42/JavaUtil/javadoc/index.html
 
 
