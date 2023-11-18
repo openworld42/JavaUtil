@@ -31,10 +31,10 @@ Java classes for the daily demands in practice.
 > [!NOTE]
 > **JavaUtil** needs a Java version of **17+**, due to modern language features. ([download Java](https://openjdk.org/))
 
-**JavaUtil** tries to keep it simple but functional, 
+:thinking: **JavaUtil** tries to keep it simple but functional, 
 thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs (Plain Old Java Object), and uses the KISS (Keep it simple [and] stupid) and "Clean Code" (easy to understand) principle. Don't repeat the boring tasks, don't re-invent the wheel. 
 
-:chains: **JavaUtil** is not a framework, and it has **no dependencies**. You use it or modify it, possibly deleting the unnecessary parts. Use the saved time for other things you like.
+:electron: **JavaUtil** is not a framework, and it has **no dependencies**. You use it or modify it, possibly deleting the unnecessary parts. Use the saved time for other things you like.
 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
@@ -47,7 +47,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 
 - :floppy_disk: [I/O](examples/io/README.md)<br />
 
-- :keyboard: [System](examples/system/README.md)<br />
+- :gear: [System](examples/system/README.md)<br />
 
 - :iphone: [Application specific](examples/app/README.md)<br />
 
@@ -66,7 +66,7 @@ Contributions from any interested party are welcome.
 <!-- Repository -->
 
 [repo_url]: https://github.com/openworld42/JavaUtil
-[examples_top_url]: https://github.com/openworld42/JavaUtil/examples/README.md
-[javadoc_url]: https://github.com/openworld42/JavaUtil/javadoc/index.html
+[examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
+[javadoc_url]: https://github.com/openworld42/JavaUtil/tree/master/javadoc/index.html
 
 
