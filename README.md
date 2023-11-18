@@ -1,4 +1,3 @@
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Oxygen480-actions-office-chart-pie.svg/128px-Oxygen480-actions-office-chart-pie.svg.png" 
 alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:none;" />
 
