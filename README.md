@@ -54,8 +54,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 
 ### Javadocs / API
 
-- [Javadoc Overview][javadoc_url]<br />
-
+- :coffee: [Javadoc Overview][javadoc_url]<br />
 
 
 **Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />
