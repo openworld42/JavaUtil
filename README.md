@@ -1,3 +1,46 @@
+<style>
+    .left {
+   	 	font-family: Dejavu Sans; 
+        font-size: 0.8em;
+		/* top-left top-right bottom-right bottom-left */
+        border-radius: 3px 0px 0px 3px;
+        padding: 1px 3px 1px 4px;
+    }
+    .right {
+   	 	font-family: Dejavu Sans; 
+        font-size: 0.8em;
+        border-radius: 0px 3px 3px 0px;
+       	padding: 1px 3px 1px 4px;
+    }
+    .whiteOnGrey {
+        color:white;
+        background-color:darkgrey;
+    }
+    .whiteOnBlack {
+        color:white;
+        background-color:#404058;
+    }
+    .whiteOnGreen {
+        color:white;
+        background-color:#10b810;
+    }
+    .whiteOnBlue {
+        color:white;
+        background-color:blue;
+    }
+    .whiteOnDarkBlue {
+        color:white;
+        background-color:#1010b8;
+    }
+    .whiteOnOrange {
+        color:white;
+        background-color:orange;
+    }
+    .blueOnLightGrey {
+        color:#0000ff;
+        background-color:lightgrey;
+    }
+</style>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Oxygen480-actions-office-chart-pie.svg/128px-Oxygen480-actions-office-chart-pie.svg.png" 
 alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:none;" />
@@ -11,7 +54,9 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
 ![dependencies](https://img.shields.io/badge/dependencies-none-orange)
 [![License](https://badgen.net/badge/issue/active/blue)](https://github.com/openworld42/JavaUtil/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
+<br /> 
+<span class="left whiteOnBlack">maintenance:</span><span class="right whiteOnGreen">https://github.com/openworld42/JavaUtil#maintenance-status</span>&nbsp;
 
 <br />
 <br />
@@ -57,7 +102,8 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 - :coffee: [Javadoc Overview][javadoc_url]<br />
 
 
-**Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />
+**Apache 2.0 licensed**, therefore could be used in any other project. You also can build **JavaUtil**
+using **Ant**.<br />
 
 **Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me **🐳**)<br />
 Contributions from any interested party are welcome.
