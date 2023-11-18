@@ -11,17 +11,17 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 ### :book: Documentation / Examples 
 
-| Package | README |Column 3|
+| Package | README | API |
 |:---|:---|:---|
-| :hammer_and_wrench: General util | org.jutil.util   | Javadoc |
-| :desktop_computer: GUI (Swing)   | org.jutil.gui    | Javadoc |
-| :floppy_disk: I/O                | org.jutil.io     | Javadoc |
-| ::gear: System                   | org.jutil.system | Javadoc |
-| :iphone: Application specific    | org.jutil.app    | Javadoc |
+| :hammer_and_wrench: &nbsp;&nbsp; General util | [org.jutil.util](util/README.md)     | Javadoc |
+| :desktop_computer: &nbsp;&nbsp; GUI (Swing)   | [org.jutil.gui](gui/README.md)       | Javadoc |
+| :floppy_disk: &nbsp;&nbsp; I/O                | [org.jutil.io](io/README.md)         | Javadoc |
+| ::gear: &nbsp;&nbsp; System                   | [org.jutil.system](system/README.md) | Javadoc |
+| :iphone: &nbsp;&nbsp; Application specific    | [org.jutil.app](app/README.md)       | Javadoc |
 
 <br />
 
-## ⚡️ Quick overview (more examples are in the README of the package)
+## ⚡️ Quick overview (more examples are in the READMEs of the package)
 
 ### Using org.jutil.util.Strings (selected examples)
 
