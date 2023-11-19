@@ -38,22 +38,22 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 ### :book: Documentation / Examples 
 (what's in, how to use it, practical examples, specimen code, etc.)
 
-- :bicyclist: [Overview, core utilities and some simple examples](examples/README.md)<br />
+- :bicyclist: &nbsp [Overview, core utilities and some simple examples](examples/README.md)<br />
 
-- :hammer_and_wrench: [Utilities](examples/util/README.md)<br />
+- :hammer_and_wrench: &nbsp [Utilities](examples/util/README.md)<br />
 
-- :desktop_computer: [GUI (Swing based)](examples/gui/README.md)<br />
+- :desktop_computer: &nbsp [GUI (Swing based)](examples/gui/README.md)<br />
 
-- :floppy_disk: [I/O](examples/io/README.md)<br />
+- :floppy_disk: &nbsp [I/O](examples/io/README.md)<br />
 
-- :gear: [System](examples/system/README.md)<br />
+- :gear: &nbsp [System](examples/system/README.md)<br />
 
-- :iphone: [Application specific](examples/app/README.md)<br />
+- :iphone: &nbsp [Application specific](examples/app/README.md)<br />
 
 
 ### Javadocs / API
 
-- :coffee: [Javadoc Overview][javadoc_url]<br />
+- :coffee: &nbsp [Javadoc Overview][javadoc_url]<br />
 
 
 **Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />

@@ -6,18 +6,15 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 # JavaUtil 
 
-<h3>General utility classes: overview, core utilities, simple examples</h3>
+<h3>General utility classes: org.jutil.util.*</h3>
 
 
 ### :book: Documentation / Examples 
 
 | Package | README | Javadoc top |
 |:---|:---|:---|
-| :hammer_and_wrench: &nbsp;&nbsp; General util | [org.jutil.util](util/README.md)     | Javadoc |
-| :desktop_computer: &nbsp;&nbsp; GUI (Swing)   | [org.jutil.gui](gui/README.md)       | Javadoc |
-| :floppy_disk: &nbsp;&nbsp; I/O                | [org.jutil.io](io/README.md)         | Javadoc |
-| :gear: &nbsp;&nbsp; System                    | [org.jutil.system](system/README.md) | Javadoc |
-| :iphone: &nbsp;&nbsp; Application specific    | [org.jutil.app](app/README.md)       | Javadoc |
+| [org.jutil.util.Util](util/README.md)        | Javadoc |
+| [org.jutil.util.Strings](util/README.md)     | Javadoc |
 
 <br />
 
