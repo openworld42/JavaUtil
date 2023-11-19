@@ -9,18 +9,18 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>General utility classes: org.jutil.util.*</h3>
 
 
-### :book: Documentation / Examples 
+### :book: Documentation / Examples nbsp;nbsp;nbsp;nbsp;nbsp;[Javadoc Overview](javadoc_url)
 
-| Package | README | Javadoc top |
-|:---|:---|:---|
-| [org.jutil.util.Util](util/README.md)        | Javadoc |
-| [org.jutil.util.Strings](util/README.md)     | Javadoc |
+| Class | README |
+|:---|:---|
+| [org.jutil.util.Util](#using-orgjutilutilstrings-selected-examples)        	       | Javadoc |
+| [org.jutil.util.Strings](#using-orgjutilsystemcommandexecutor-selected-examples)     | Javadoc |
 
 <br />
 
-## ⚡️ Quick overview (more examples are in the READMEs of the package)
+## ⚡️ Quick overview
 
-### Using org.jutil.util.Strings (selected examples)
+### org.jutil.util.Strings (selected examples)
 
 ```Java
 import org.jutil.util.*;
