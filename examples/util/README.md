@@ -9,14 +9,22 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>General utility classes:  &nbsp; org.jutil.util.*</h3>
 
 
-### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview](javadoc_url)
+### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview]([javadoc_url])
 
 | Class | README |
 |:---|:---|
-| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | Javadoc |
-| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | Javadoc |
+| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | [javadoc_util] |
+| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | [javadoc_strings] |
 
 <br />
+
+<br />
+
+**JavaUtil is still in a formation process - but you can watch things grow.**
+
+<br />
+
+
 
 ## ⚡️ Quick overview
 
@@ -110,7 +118,7 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 <a href="#top">Back to top</a>
 
-### Using of org.jutil.Util (selected examples)
+### Using org.jutil.Util (selected examples)
 
 ```Java
 import org.jutil.Util;
@@ -140,4 +148,6 @@ More detailed examples can be found in the package README or the Javadoc API.
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
 [javadoc_url]: https://github.com/openworld42/JavaUtil/tree/master/javadoc/index.html
+[javadoc_strings]: https://github.com/openworld42/JavaUtil/tree/master/javadoc/org/jutil/Strings.html
+[javadoc_util]: https://github.com/openworld42/JavaUtil/tree/master/javadoc/org/jutil/Util.html
 

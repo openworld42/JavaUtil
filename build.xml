@@ -13,11 +13,12 @@
 	
 	<!-- set the global properties for this build -->
 	
-	<property name="appname" value="JavaTemplate"/>
-	<property name="appdesc" value="JavaTemplate -  template files as an aid to start a new project"/>
-	<property name="repo" value="https://github.com/openworld42/JavaTemplate"/>
+	<property name="appdesc" value="JavaUtil"/>
+	<property name="repo" value="JavaUtil"/>
+	<!--
 	<property name="mainclass" value="template.Main"/>
-	<property name="jarprefix" value="template"/>
+	-->
+	<property name="jarprefix" value="javautil"/>
 	
 	<property name="src" location="src"/>
 	<property name="dir.src" value="src"/>
@@ -31,10 +32,8 @@
 		<!-- Create the time stamp -->
 		<tstamp/>
 		<echo>
-			appname: ${appname}
 			appdesc: ${appdesc}
 			repo: ${repo}
-			mainclass: ${mainclass}
 			jarprefix: ${jarprefix} + "_vN.N.N.jar"
 		</echo>
 		<input message="Please enter the version (as of Version.java, like v1.2.3): "
@@ -76,7 +75,9 @@
 			<fileset dir="." includes="${dir.src}/**"/>
 			<fileset dir="." includes="${dir.javadoc}/**"/>
 			<manifest>
+				<!--
 				<attribute name="Main-Class" value="${mainclass}"/>
+				-->
 				<attribute name="Implementation-Version"  value="${version}"/>   
       			<attribute name="Built-Date" value="${DSTAMP}"/>        
 				<attribute name="Implementation-URL" value="${repo}"/>
