@@ -13,8 +13,8 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 | Class | README |
 |:---|:---|
-| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | [javadoc_util] |
-| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | [javadoc_strings] |
+| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | [Javadoc]([javadoc_util]) |
+| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | [Javadoc]([javadoc_strings]) |
 
 <br />
 
@@ -147,7 +147,7 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
-[javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/blob/master/javadoc/index.html
-[javadoc_strings]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/blob/master/javadoc/org/jutil/Strings.html
-[javadoc_util]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/blob/master/javadoc/org/jutil/Util.html
+[javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/index.html
+[javadoc_strings]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/Strings.html
+[javadoc_util]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/Util.html
 
