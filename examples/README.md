@@ -13,7 +13,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 | Package | README | Javadoc top |
 |:---|:---|:---|
-| :hammer_and_wrench: &nbsp;&nbsp; General util | [org.jutil.util](util/README.md)     | Javadoc |
+| :hammer_and_wrench: &nbsp;&nbsp; General util | [org.jutil.util](util/README.md)     | [Javadoc][javadoc_util] |
 | :desktop_computer: &nbsp;&nbsp; GUI (Swing)   | [org.jutil.gui](gui/README.md)       | Javadoc |
 | :floppy_disk: &nbsp;&nbsp; I/O                | [org.jutil.io](io/README.md)         | Javadoc |
 | :gear: &nbsp;&nbsp; System                    | [org.jutil.system](system/README.md) | Javadoc |
@@ -143,4 +143,5 @@ More detailed examples can be found in the package README or the Javadoc API.
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
 [javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/index.html
+[javadoc_util]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/Util.html
 
