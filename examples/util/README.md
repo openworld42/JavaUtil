@@ -90,32 +90,6 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 <a href="#top">Back to top</a>
 
-### Using org.jutil.system.CommandExecutor (selected examples)
-
-```Java
-import org.jutil.Util;
-
-	... 
-	// Linux, Unix, MacOS, others:
-	
-	CommandExecutor executor = new CommandExecutor("bash", "-c", "ls");
-	System.out.println("Exit code: " + executor.getExitCode());
-	System.out.println("\n" + executor.getOutput());
-	
-Output (of the JavaUtil folder):
-Exit code: 0
-
-bin
-build.xml
-CHANGELOG.md
-examples
-LICENSE
-...
-	
-More detailed examples can be found in the package README or the Javadoc API.
-
-```
-
 <a href="#top">Back to top</a>
 
 ### Using org.jutil.Util (selected examples)
@@ -129,7 +103,7 @@ import org.jutil.Util;
 	// code parts 
 	
 	...
-	Util.sleep(100); 	
+	Util.sleep(100, false); 	
 	// convenience method: sleeps 100ms or until interruption, see 
 	// implementation or Javadoc for details
 	

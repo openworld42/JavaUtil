@@ -106,6 +106,10 @@ CHANGELOG.md
 examples
 LICENSE
 ...
+
+	// MS-Windows:
+	
+	CommandExecutor executor = new CommandExecutor("cmd.exe", "/c", "ping -n 3 localhost");
 	
 More detailed examples can be found in the package README or the Javadoc API.
 
