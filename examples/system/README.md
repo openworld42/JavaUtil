@@ -68,5 +68,4 @@ More detailed examples can be found in the package README or the Javadoc API.
 [examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
 
 [javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/index.html
-[javadoc_commandexecutor]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/system/CommandExecutor.html
-
+[javadoc_commandexecutor]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/system/CommandExecutor.html
