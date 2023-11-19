@@ -10,7 +10,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 [![Maintenance Status](https://badgen.net/badge/maintenance/active/green)](https://github.com/openworld42/JavaUtil#maintenance-status)
 ![dependencies](https://img.shields.io/badge/dependencies-none-orange)
 [![License](https://badgen.net/badge/issue/active/blue)](https://github.com/openworld42/JavaUtil/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com) 
 
 <br />
 <br />
