@@ -9,7 +9,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 <h3>General utility classes:  &nbsp; org.jutil.util.*</h3>
 
 
-### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview]([javadoc_url])
+### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview][javadoc_url]
 
 | Class | README |
 |:---|:---|
