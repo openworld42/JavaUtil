@@ -6,10 +6,10 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 # JavaUtil 
 
-<h3>General utility classes: overview, core utilities, simple examples</h3>
+<h3>Overview, core utilities, simple examples</h3>
 
 
-### :book: Documentation / Examples 
+### :book: &nbsp; Documentation / Examples 
 
 | Package | README | Javadoc top |
 |:---|:---|:---|
@@ -83,6 +83,8 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 ```
 
+<a href="#top">Back to top</a>
+
 ### Using org.jutil.system.CommandExecutor (selected examples)
 
 ```Java
@@ -108,6 +110,8 @@ LICENSE
 More detailed examples can be found in the package README or the Javadoc API.
 
 ```
+
+<a href="#top">Back to top</a>
 
 ### Using of org.jutil.Util (selected examples)
 

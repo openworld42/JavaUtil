@@ -6,15 +6,15 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 # JavaUtil 
 
-<h3>General utility classes: org.jutil.util.*</h3>
+<h3>General utility classes:  &nbsp; org.jutil.util.*</h3>
 
 
-### :book: Documentation / Examples nbsp;nbsp;nbsp;nbsp;nbsp;[Javadoc Overview](javadoc_url)
+### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview](javadoc_url)
 
 | Class | README |
 |:---|:---|
-| [org.jutil.util.Util](#using-orgjutilutilstrings-selected-examples)        	       | Javadoc |
-| [org.jutil.util.Strings](#using-orgjutilsystemcommandexecutor-selected-examples)     | Javadoc |
+| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | Javadoc |
+| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | Javadoc |
 
 <br />
 
@@ -80,6 +80,8 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 ```
 
+<a href="#top">Back to top</a>
+
 ### Using org.jutil.system.CommandExecutor (selected examples)
 
 ```Java
@@ -105,6 +107,8 @@ LICENSE
 More detailed examples can be found in the package README or the Javadoc API.
 
 ```
+
+<a href="#top">Back to top</a>
 
 ### Using of org.jutil.Util (selected examples)
 
