@@ -11,7 +11,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 ### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview][javadoc_url]
 
-| Class | README |
+| Class |  |
 |:---|:---|
 | [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | [Javadoc][javadoc_util] |
 | [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | [Javadoc][javadoc_strings] |
