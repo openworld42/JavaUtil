@@ -65,6 +65,7 @@ Contributions from any interested party are welcome.
 
 [repo_url]: https://github.com/openworld42/JavaUtil
 [examples_top_url]: https://github.com/openworld42/JavaUtil/tree/master/examples/README.md
-[javadoc_url]: https://github.com/openworld42/JavaUtil/tree/master/javadoc/index.html
+[javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/index.html
+
 
 
