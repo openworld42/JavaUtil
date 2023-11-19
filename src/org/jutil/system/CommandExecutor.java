@@ -61,7 +61,6 @@ public class CommandExecutor {
 	 * </pre>
 	 * 
 	 * @param cmdAndParameters		the shell, options and the command to execute
-	 * @param cmdAndParameters
 	 * @throws IOException in case of IO errors
 	 * @throws InterruptedException if the process has been interrupted
 	 */

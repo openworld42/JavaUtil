@@ -55,6 +55,7 @@ public class Strings {
      * @param string			the string to be centered, may be null
      * @param rightBorder		the right side border string, may be null
      * @param length			the length of the resulting string
+     * @return the centered string
      */
     public static String center(String leftBorder, String string, String rightBorder, int length) {
     	
@@ -189,12 +190,12 @@ public class Strings {
      * 		Strings.listToString(List.of(1, 2, 3), null, ",", false);		
      * 		// returns "1,2,3"
      * 
-     * 		Strings.listToString(List.of("This", "is", "a", "text."), null, " <-\n", true); 
+     * 		Strings.listToString(List.of("This", "is", "a", "text."), null, " --\n", true); 
      * 		// returns:
-     * 		This <-
-     * 		is <-
-     * 		a <-
-     * 		text. <-
+     * 		This --
+     * 		is --
+     * 		a --
+     * 		text. --
      * </pre>
      * 
      * @param <T>					generic type parameter for the elements of the <code>List</code>
@@ -275,7 +276,7 @@ public class Strings {
      * </pre>
      * 
      * @param string				the string with a possible ending
-     * @param tailToTest			a string to test at the end
+     * @param beginningToTest		a string to test at the beginning
      * @return the string or a string 
      */
     public static String stripIfStartsWith(String string, String beginningToTest) {

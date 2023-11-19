@@ -1,5 +1,5 @@
 
 /**
- * JavaUtil - GUI related utilities.<br/>
+ * GUI utilities.<br/>
  */
 package org.jutil.gui;

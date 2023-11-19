@@ -46,6 +46,7 @@
 		description="compile the source">
 		<!-- Compile the Java code from ${src} into ${build} -->
 		<javac srcdir="${src}" destdir="${build}" includeantruntime="false"/>
+		<delete file="${build}/Main.class"/>
 	</target>
 
 	<target name="javadoc" depends="compile" description="generate javadoc">
@@ -94,7 +95,7 @@
 
 		<copy file="${dist}/${jarprefix}_${version}.jar" tofile="${base}/${jarprefix}_${version}.jar"/>
 		<echo>
-			check the file qemujuicy_${version}.jar
+			check the file ${base}/${jarprefix}_${version}.jar
 			then run: ant clean
 		</echo>
 	</target>

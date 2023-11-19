@@ -1,5 +1,5 @@
 
 /**
- * JavaUtil - I/O related utilities.<br/>
+ * 	Utilities supporting I/O.<br/>
  */
 package org.jutil.io;

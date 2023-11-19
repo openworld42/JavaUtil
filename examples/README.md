@@ -124,7 +124,7 @@ import org.jutil.Util;
 	// code parts 
 	
 	...
-	Util.sleep(100); 	
+	Util.sleep(100, false); 	
 	// convenience method: sleeps 100ms or until interruption, see 
 	// implementation or Javadoc for details
 	

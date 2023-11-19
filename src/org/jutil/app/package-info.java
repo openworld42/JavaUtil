@@ -1,5 +1,5 @@
 
 /**
- * JavaUtil - application related utilities.<br/>
+ * Application/program utilities.<br/>
  */
 package org.jutil.app;
