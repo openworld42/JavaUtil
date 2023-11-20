@@ -1,5 +1,5 @@
 
 /**
- * JavaUtil - Lightweight Java utilities to support straightforward development.<br/>
+ * General utilities.<br/>
  */
 package org.jutil;

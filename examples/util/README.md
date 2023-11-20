@@ -6,15 +6,16 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 # JavaUtil 
 
-<h3>General utility classes:  &nbsp; org.jutil.util.*</h3>
+<h3>General utility classes:  &nbsp; org.jutil.*</h3>
 
 
 ### :book: &nbsp; Documentation / Examples  &nbsp; &nbsp; &nbsp; &nbsp; [Javadoc Overview][javadoc_url]
 
 | Class |  |
 |:---|:---|
-| [org.jutil.util.Util](#using-orgjutilsystemcommandexecutor-selected-examples)     | [Javadoc][javadoc_util] |
-| [org.jutil.util.Strings](#using-orgjutilutilstrings-selected-examples)            | [Javadoc][javadoc_strings] |
+| [org.jutil.util.Util](#using-orgjutilutil-selected-examples)  | [Javadoc][javadoc_util] |
+| [org.jutil.util.Strings](#using-orgjutilstrings)          	| [Javadoc][javadoc_strings] |
+| [org.jutil.util.Util](#using-orgjutilcommandexecutor)     	| [Javadoc][javadoc_cmdExecutor] |
 
 <br />
 
@@ -28,7 +29,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 ## ⚡️ Quick overview
 
-### Using org.jutil.util.Strings (selected examples)
+### Using org.jutil.Strings
 
 ```Java
 import org.jutil.util.*;
@@ -90,8 +91,6 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 <a href="#top">Back to top</a>
 
-<a href="#top">Back to top</a>
-
 ### Using org.jutil.Util (selected examples)
 
 ```Java
@@ -115,6 +114,38 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 ```
 
+<a href="#top">Back to top</a>
+
+### Using org.jutil.CommandExecutor
+
+```Java
+import org.jutil.Util;
+
+	... 
+	// Linux, Unix, MacOS, others:
+	
+	CommandExecutor executor = new CommandExecutor("bash", "-c", "ls");
+	System.out.println("Exit code: " + executor.getExitCode());
+	System.out.println("\n" + executor.getOutput());
+	
+Output (of the JavaUtil folder):
+Exit code: 0
+
+bin
+build.xml
+CHANGELOG.md
+examples
+LICENSE
+...
+
+	// MS-Windows:
+	
+	CommandExecutor executor = new CommandExecutor("cmd.exe", "/c", "ping -n 3 localhost");
+	
+More detailed examples can be found in the package README or the Javadoc API.
+
+```
+
 [Overview][examples_top_url] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#top">Back to top</a>
 
 <!-- Repository -->
@@ -124,6 +155,6 @@ More detailed examples can be found in the package README or the Javadoc API.
 
 [javadoc_url]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/index.html
 [javadoc_util]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/Util.html
-
 [javadoc_strings]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/Strings.html
+[javadoc_cmdExecutor]: https://htmlpreview.github.io/?https://raw.githubusercontent.com/openworld42/JavaUtil/master/javadoc/org/jutil/CommandExecutor.html
 

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jutil.system;
+package org.jutil;
 
 import java.io.*;
 import java.util.*;
@@ -44,7 +44,7 @@ public class CommandExecutor {
 	private int exitCode;
 	/** the output after the execution of the command */
 	private String output;
-	/** the output as lines after the execution of the command */
+	/** the output as array list after the execution of the command */
 	private ArrayList<String> lines;
 	
 	/**
@@ -92,7 +92,7 @@ public class CommandExecutor {
 	}
 
 	/**
-	 * Returns the output as lines, without a newlines.
+	 * Returns the output as an <code>ArrayList</code> of lines, without any newlines.
 	 * 
 	 * @return the output lines as an array
 	 */

@@ -16,7 +16,6 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 | :hammer_and_wrench: &nbsp;&nbsp; General util | [org.jutil.util](util/README.md)     | [Javadoc][javadoc_package] |
 | :desktop_computer: &nbsp;&nbsp; GUI (Swing)   | [org.jutil.gui](gui/README.md)       | [Javadoc][javadoc_package] |
 | :floppy_disk: &nbsp;&nbsp; I/O                | [org.jutil.io](io/README.md)         | [Javadoc][javadoc_package] |
-| :gear: &nbsp;&nbsp; System                    | [org.jutil.system](system/README.md) | [Javadoc][javadoc_package] |
 | :iphone: &nbsp;&nbsp; Application specific    | [org.jutil.app](app/README.md)       | [Javadoc][javadoc_package] |
 
 <br />
@@ -78,38 +77,6 @@ Output:
    
 	...
 	indent("  ", 3, "text line");          // returns "      text line" (indented by 6 spaces)
-	
-More detailed examples can be found in the package README or the Javadoc API.
-
-```
-
-<a href="#top">Back to top</a>
-
-### Using org.jutil.system.CommandExecutor (selected examples)
-
-```Java
-import org.jutil.Util;
-
-	... 
-	// Linux, Unix, MacOS, others:
-	
-	CommandExecutor executor = new CommandExecutor("bash", "-c", "ls");
-	System.out.println("Exit code: " + executor.getExitCode());
-	System.out.println("\n" + executor.getOutput());
-	
-Output (of the JavaUtil folder):
-Exit code: 0
-
-bin
-build.xml
-CHANGELOG.md
-examples
-LICENSE
-...
-
-	// MS-Windows:
-	
-	CommandExecutor executor = new CommandExecutor("cmd.exe", "/c", "ping -n 3 localhost");
 	
 More detailed examples can be found in the package README or the Javadoc API.
 
