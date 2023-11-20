@@ -46,8 +46,6 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 
 - :floppy_disk: &nbsp; [I/O](examples/io/README.md)<br />
 
-- :gear: &nbsp; [System](examples/system/README.md)<br />
-
 - :iphone: &nbsp; [Application specific](examples/app/README.md)<br />
 
 
