@@ -13,9 +13,9 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 | Class |  |
 |:---|:---|
-| [org.jutil.util.Util](#using-orgjutilutil-selected-examples)  | [Javadoc][javadoc_util] |
-| [org.jutil.util.Strings](#using-orgjutilstrings)          	| [Javadoc][javadoc_strings] |
-| [org.jutil.util.Util](#using-orgjutilcommandexecutor)     	| [Javadoc][javadoc_cmdExecutor] |
+| [org.jutil.util.Util](#using-orgjutilutil-selected-examples)  	| [Javadoc][javadoc_util] |
+| [org.jutil.util.Strings](#using-orgjutilstrings)          		| [Javadoc][javadoc_strings] |
+| [org.jutil.util.CommandExecutor](#using-orgjutilcommandexecutor)  | [Javadoc][javadoc_cmdExecutor] |
 
 <br />
 
