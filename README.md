@@ -59,6 +59,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 **Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me **🐳**)<br />
 Contributions from any interested party are welcome - please open an issue with a short description.
 
+
 <!-- Repository -->
 
 [repo_url]: https://github.com/openworld42/JavaUtil
