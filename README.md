@@ -57,7 +57,7 @@ thus reducing unnecessary complexity. Whenever possible, it makes use  of POJOs 
 **Apache 2.0 licensed**, therefore could be used in any other GPL/Apache/FOSS project.<br />
 
 **Author**: Heinz Silberbauer  (You like it? It helped you? Spend a Github Star to motivate me **🐳**)<br />
-Contributions from any interested party are welcome.
+Contributions from any interested party are welcome - please open an issue with a short description.
 
 <!-- Repository -->
 
