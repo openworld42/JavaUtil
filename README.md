@@ -23,7 +23,7 @@ alt="JavaUtil" align="right" style="right:40px; top:18px; width:100px; border:no
 
 Java classes for the daily demands in practice. 
 
-:airplane: &nbsp; **[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaTemplate/blob/master/template_v1.1.0.jar)**
+:airplane: &nbsp; **[Click here if you just want the latest release jar file.](https://github.com/openworld42/JavaUtil/blob/master/template_v1.1.0.jar)**
 
 :mechanic: &nbsp; **To use it:** simply copy over the files you want to use into your project and delete the methods, parts or files you don't need, or reference the **jar file** of a release. 
 
