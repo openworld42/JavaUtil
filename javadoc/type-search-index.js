@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.jutil.system","l":"CommandExecutor"},{"p":"org.jutil","l":"Strings"},{"p":"org.jutil","l":"Util"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.jutil","l":"CommandExecutor"},{"p":"org.jutil","l":"EnumUtil"},{"p":"org.jutil.gui","l":"Gui"},{"p":"org.jutil","l":"Main"},{"p":"org.jutil","l":"Strings"},{"p":"org.jutil","l":"Util"}];updateSearchResults();
